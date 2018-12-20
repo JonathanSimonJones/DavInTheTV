@@ -1,0 +1,9 @@
+#podcast_banner {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#podcast_banner img {
+    width: 100%;
+    height: auto;
+}
