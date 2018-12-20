@@ -14,54 +14,60 @@
     <link rel="stylesheet" type="text/css" href="CSS/reset.css">
     <link rel="stylesheet" type="text/css" href="CSS/layout.css">
     <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+    <link rel="stylesheet" type="text/css" href="CSS/music.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 
 <body>
-  <div id="header">
-      <div id="logo-holder">
-          <img srcset="Files/logo_shrunk_alpha.png" id="logo">
-      </div>
-      <div id="nav-bar-holder">
-          <a href="/index.html">Home</a>
-          <a href="/podcast.html">Podcast</a>
-      </div>
-  </div>
-  <div id="main">
-    <div id="content">
-      <h1>Dav in the TV</h1>
-      <div class="youtube-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/F9maWfQo6WM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div id="music-container">
-        <h2>Christmas Music</h2>
-        <div class="music-block">
-          <h3>Old Saint Nike (starts at 7 seconds)</h3>
-          <audio controls>
-            <source src="Files/01_-_Old_Saint_Nike.mp3" type="audio/mp3">
-          </audio>
-        </div>
-        <div class="music-block">
-          <h3>Xmas blahblahblah</h3>
-          <audio controls>
-            <source src="Files/02_-_Xmas_blahblahblah.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-        <div class="music-block">
-          <h3>Jingle all the hay boopbow</h3>
-          <audio controls>
-            <source src="Files/03_-_Jingle_all_the_hay_boopbow.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-      </div>
+<header id="header">
+    <div id="logo-holder">
+        <img srcset="Files/logo_shrunk_alpha.png" id="logo">
     </div>
-  </div>
-  <div id="footer">
-    
-  </div>
+    <div id="nav-bar-holder">
+        <a href="/index.html">Home</a>
+        <a href="/podcast.html">Podcast</a>
+    </div>
+</header>
+<main id="main">
+    <div id="content">
+        <h1>Dav in the TV</h1>
+        <div class="youtube-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F9maWfQo6WM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="music-container">
+            <h2>Christmas Music</h2>
+            <div class="music-block">
+                <h3>Old Saint Nike (starts at 7 seconds)</h3>
+                <audio controls>
+                    <source src="Files/01_-_Old_Saint_Nike.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="music-block">
+                <h3>Xmas blahblahblah</h3>
+                <audio controls>
+                    <source src="Files/02_-_Xmas_blahblahblah.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="music-block">
+                <h3>Jingle all the hay boopbow</h3>
+                <audio controls>
+                    <source src="Files/03_-_Jingle_all_the_hay_boopbow.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+</main>    
+<footer id="footer">
+    <div id="footer-text">
+        <p>Website development and design by: <a href="http://jonathansimonjones.github.io/">Jonathan Simon Jones</a></p>
+    </div>
+</footer>
+<script src="Javascript/jquery-3.3.1.min.js"></script>
+    <script src="Javascript/layout.js"></script>
+
 </body>
 </html>

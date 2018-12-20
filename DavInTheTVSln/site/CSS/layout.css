@@ -4,10 +4,6 @@ h1, h2, p {
     font-weight: bold;
 }
 
-h1, h1 {
-    text-decoration: underline;
-}
-
 h1 {
     font-size: 30px;
     padding-top: 5px;
@@ -53,31 +49,35 @@ h3 {
     text-align: center;
 }
 
-#nav-bar-holder a {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    color: #e30003;
-    font-size: 22px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-weight: bold;
-}
+    #nav-bar-holder a {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        color: #e9565d;
+        font-size: 22px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: bold;
+    }
 
 #footer {
     width: 100%;
-    max-height: 100px;
-    min-height: 50px;
-    height: 10%;
     background-color: rgb(75,75,75);
 }
 
-@media screen and (min-height: 0vh) and (max-height: 100vh)
-{
-    #footer {
-        position: absolute;
-        bottom: 0;
-    }
+.footer-abs-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+#footer-text p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer p,
+#footer a {
+    color: #e9565d;
 }
 
 #main {
@@ -96,5 +96,5 @@ h3 {
 @media screen and (max-width: 420px) {
     #content {
         max-width: 100%;
-    } 
+    }
 }
