@@ -6,8 +6,5 @@ $(function () {
 
     if (documentTotalHeight < $(window).height()) {
         $("#footer").addClass("footer-abs-bottom");
-        console.log("Set footer to bottom of page");
-    } else {
-        console.log("Did nothing");
     }
 });
