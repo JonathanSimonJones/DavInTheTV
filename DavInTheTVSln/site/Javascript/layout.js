@@ -7,4 +7,8 @@ $(function () {
     if (documentTotalHeight < $(window).height()) {
         $("#footer").addClass("footer-abs-bottom");
     }
+
+    $("#hide-cookie-notification-button").click(function() {
+        $("#cookies-notification").hide();
+    });
 });

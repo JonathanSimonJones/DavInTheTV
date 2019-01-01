@@ -1,4 +1,4 @@
-h1, h2, p {
+h1, h2, h3, h4, p, ul, l {
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
@@ -17,6 +17,12 @@ h2 {
 }
 
 h3 {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
     font-size: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -73,11 +79,16 @@ h3 {
 #footer-text p {
     padding-top: 10px;
     padding-bottom: 10px;
+    display: inline-block;
 }
 
 #footer p,
 #footer a {
     color: #e9565d;
+}
+
+#footer-text {
+    text-align: center;
 }
 
 #main {
@@ -97,4 +108,10 @@ h3 {
     #content {
         max-width: 100%;
     }
+}
+
+#cookies-notification {
+    background-color: #e9565d;
+    position: fixed;
+    width: 100%;
 }
